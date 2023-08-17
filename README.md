@@ -3,5 +3,5 @@
 from *www.frontendmentor.io*
 
 - [x] Desktop Design
-- [ ] Responsive Deign
-- [ ] Animations
+- [x] Responsive Deign
+- [x] Animations

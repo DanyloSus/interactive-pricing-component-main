@@ -57,4 +57,21 @@ p img {
 }
 #range input[type=range]::-webkit-slider-thumb:active {
   background: url("./icon-slider.svg") no-repeat center, hsl(174, 86%, 35%);
+}
+
+section {
+  animation: sect-anim 1s ease-in-out backwards;
+}
+
+@keyframes sect-anim {
+  0% {
+    position: relative;
+    opacity: 0;
+    bottom: -50px;
+  }
+  100% {
+    position: relative;
+    bottom: 0px;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */

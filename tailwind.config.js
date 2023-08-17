@@ -20,6 +20,9 @@ export default {
       dropShadow: {
         range: "20px 0px 20px hsl(174, 77%, 80%)",
       },
+      screens: {
+        sm: { max: "640px" },
+      },
     },
   },
   plugins: [],
