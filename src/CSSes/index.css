@@ -4,4 +4,57 @@
 @tailwind utilities;
 :root {
   font-family: "Manrope", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-text-cta-background font-bold;
+}
+
+p {
+  @apply text-text flex items-center;
+}
+p img {
+  @apply mr-3;
+}
+
+#range > div {
+  width: 100%;
+  background: hsl(224, 65%, 95%);
+  border: none;
+  height: 8px;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px 0;
+  @apply absolute top-0;
+}
+#range input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+  border: none;
+  height: 8px;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px 0;
+  @apply relative z-10;
+}
+#range input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background: url("./icon-slider.svg") no-repeat center, hsl(174, 86%, 45%);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 20px 20px hsl(174, 77%, 80%);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+#range input[type=range]::-webkit-slider-thumb:hover {
+  background: url("./icon-slider.svg") no-repeat center, hsl(174, 77%, 80%);
+}
+#range input[type=range]::-webkit-slider-thumb:active {
+  background: url("./icon-slider.svg") no-repeat center, hsl(174, 86%, 35%);
 }/*# sourceMappingURL=index.css.map */

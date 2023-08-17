@@ -7,3 +7,16 @@
 :root {
   font-family: "Manrope", sans-serif;
 }
+
+h1,
+h2,
+h3 {
+  @apply text-text-cta-background font-bold;
+}
+
+p {
+  @apply text-text flex items-center;
+  img {
+    @apply mr-3;
+  }
+}

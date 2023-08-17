@@ -17,6 +17,9 @@ export default {
         text: "hsl(225, 20%, 60%)",
         "text-cta-background": "hsl(227, 35%, 25%)",
       },
+      dropShadow: {
+        range: "20px 0px 20px hsl(174, 77%, 80%)",
+      },
     },
   },
   plugins: [],
